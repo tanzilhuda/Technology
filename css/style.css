@@ -107,22 +107,71 @@ body{
 .text-justify{text-align: justify;}
 .text-gray{color: #a0a0a0}
 /*====================||start main css||==================================================*/
-header{}
-header i{}
-header h3{}
-header span{}
+header {
+    background: #F8F8F8;
+    padding: 20px 0;
+    box-shadow: 0px 1px 1px grey;
+}
+header .header-box{
+    border-right: 1px solid #e4e4e4;
+}
+header .header-box i{
+    color: #C0C5CE;
+    float: left;
+    padding: 0 5px 0 0;
+}
+header .header-box  h3{
+    color: #898989;
+}
+
+header .header-box  span{}
 /*===============|| end header zone||================*/
-.top-menu{}
-.top-menu .log{}
-.top-menu .log img{}
-.top-menu .log-in ul {}
-.top-menu .log-in ul li {}
-.top-menu .log-in ul li a {}
+.top-menu{
+    padding: 20px 0;
+}
+.top-menu .logo{}
+.top-menu .logo img{}
+.top-menu .log-in{}
+.top-menu .log-in ul {
+    display: inline-block;
+    margin-left: 5px;
+}
+.top-menu .log-in ul li {
+    display: inline-block;
+    margin-left: 11px;
+}
+.top-menu .log-in ul li a {
+    color: black;
+}
 /*===========Nav area css========*/
-nav .menu{}
+nav{
+    background: #75BF97;
+    padding: 10px 0;
+}
+nav .menu{
+    padding-top: 10px;
+}
+
 nav .menu ul{}
-nav .menu ul li{}
-nav .menu ul li a{}
+nav .menu ul li{
+    display: inline-block;
+    margin-left: 14px;
+}
+nav .menu ul li i{
+    font-size: 30px;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 700;
+}
+nav .nav-search{}
+nav .nav-search input[type=search]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
 /*Slider css*/
 .slider{}
 .slider .slide-image{}
@@ -149,7 +198,11 @@ nav .menu ul li a{}
 .recent-product .single-recent p ul li{}
 .recent-product .single-recent p ul li i{}
 .recent-product .single-recent a{}
-
+.recent-product .recent-ads{}
+.recent-product .recent-ads img{}
+.recent-product .recent-ads .banner-text{}
+.recent-product .recent-ads .banner-text h1{}
+.recent-product .recent-ads .banner-text a{}
 
 
 
