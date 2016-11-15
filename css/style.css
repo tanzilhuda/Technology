@@ -106,3 +106,52 @@ body{
 .text-right{text-align: right;}
 .text-justify{text-align: justify;}
 .text-gray{color: #a0a0a0}
+/*====================||start main css||==================================================*/
+header{}
+header i{}
+header h3{}
+header span{}
+/*===============|| end header zone||================*/
+.top-menu{}
+.top-menu .log{}
+.top-menu .log img{}
+.top-menu .log-in ul {}
+.top-menu .log-in ul li {}
+.top-menu .log-in ul li a {}
+/*===========Nav area css========*/
+nav .menu{}
+nav .menu ul{}
+nav .menu ul li{}
+nav .menu ul li a{}
+/*Slider css*/
+.slider{}
+.slider .slide-image{}
+.slider .slide-image img{}
+.slider .slide-image .slider-text{}
+.slider .slide-image .slider-text h4{}
+.slider .slide-image .slider-text h1{}
+.slider .slide-image .slider-text p{}
+.slider .slide-image .slider-text a{}
+/*recent products css area*/
+.recent-product{}
+.recent-product .product-button{}
+.recent-product .product-button ul{}
+.recent-product .product-button ul li{}
+.recent-product .product-button ul li a{}
+.recent-product .product-control{}
+.recent-product .product-control i{}
+.recent-product .single-recent{}
+.recent-product .single-recent img{}
+.recent-product .single-recent p{}
+.recent-product .single-recent strong{}
+.recent-product .single-recent strong del{}
+.recent-product .single-recent p ul{}
+.recent-product .single-recent p ul li{}
+.recent-product .single-recent p ul li i{}
+.recent-product .single-recent a{}
+
+
+
+
+
+
