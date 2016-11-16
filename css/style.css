@@ -131,7 +131,9 @@ header .header-box  span{}
 }
 .top-menu .logo{}
 .top-menu .logo img{}
-.top-menu .log-in{}
+.top-menu .log-in{
+    margin-top: 18px;
+}
 .top-menu .log-in ul {
     display: inline-block;
     margin-left: 5px;
@@ -174,29 +176,84 @@ nav .menu ul li a{
 }
 nav .nav-search{}
 nav .nav-search input[type=search]{
-    padding: 10px;
+    border: medium none;
     border-radius: 5px;
-    border: none;
+    margin-top: 23px;
+    padding: 10px;
     width: 100%;
 }
 
 /*Slider css*/
-.slider{}
+.slider{
+    margin: 5px 0 10px;
+    padding: 10px 0 20px;
+    background: #F3F3F3;
+}
 .slider .slide-image{}
-.slider .slide-image img{}
+.slider .slide-image img{
+    float: right;
+}
 .slider .slide-image .slider-text{}
-.slider .slide-image .slider-text h4{}
-.slider .slide-image .slider-text h1{}
-.slider .slide-image .slider-text p{}
-.slider .slide-image .slider-text a{}
+.slider .slide-image .slider-text h4{
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.slider .slide-image .slider-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.slider .slide-image .slider-text p{
+    word-spacing: 3px;
+}
+.slider .slide-image .slider-text p i{
+    margin-right: 10px;
+    background: black;
+    padding: 3px;
+    color: white;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+}
+.slider .slide-image .slider-text p i.link{
+    margin-bottom: 27px;
+}
+.slider .slide-image .slider-text a{
+    margin-top: 10px;
+    background: #F07B1D;
+    color: white;
+    padding: 10px 20px;
+}
 /*recent products css area*/
 .recent-product{}
-.recent-product .product-button{}
+.recent-product .product-button{
+    border: 1px solid #ddd2ea;
+    padding: 15px;
+    height: 48px;
+    align-content: center;
+}
 .recent-product .product-button ul{}
-.recent-product .product-button ul li{}
-.recent-product .product-button ul li a{}
+.recent-product .product-button ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.recent-product .product-button ul li a{
+    color: white;
+    background: #75BF97;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 800;
+}
 .recent-product .product-control{}
-.recent-product .product-control i{}
+.recent-product .product-control i{
+    margin-right: 10px;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    border-radius: 3px;
+}
 .recent-product .single-recent{}
 .recent-product .single-recent img{}
 .recent-product .single-recent p{}
